@@ -1,0 +1,17 @@
+{
+	"name": "event-list",
+	"version": "1.0.0",
+	"description": "待办事项管理系统",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node start.js"
+	},
+	"author": "hzc",
+	"license": "MIT",
+	"dependencies": {
+		"bootstrap": "^3.3.7",
+		"express": "^4.16.3",
+		"vue": "^2.5.16",
+	}
+}

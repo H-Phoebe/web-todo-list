@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>用户登录</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="/js/vue.js"></script>
+</head>
+<style>  
+.col-center-block {  
+    float: none;  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}  
+</style>
+<body background="/images/bg.jpg">
+    <nav class="navbar navbar-default" role="navigation"> 
+        <div class="container-fluid"> 
+            <div class="navbar-header"> 
+                <a class="navbar-brand" href="#">My To-do List</a> 
+            </div> 
+        </div>
+    </nav>
+    <div class="container" id="app"> 
+        <div class="page-header text-center">
+            <h1><a href="#">My To-do List登陆</a></h1>
+        </div>
+        <div class="col-xs-6 col-md-4 col-center-block">
+            <div class="form-group text-center">
+                <input type="text" class="form-control"  id="uesrname" name="uesrname" placeholder="请输入用户名" v-model="username">
+            </div>
+            <div class="form-group text-center">
+                <input type="password" class="form-control"  id="password" name="password" placeholder="请输入密码" v-model="password">
+            </div>
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary btn-block" v-on:click="login(username,password)">登录</button>
+            </div>
+        </div>
+    </div>    
+</body>
+<script type="text/javascript" src="/js/login.js"></script>
+</html>
