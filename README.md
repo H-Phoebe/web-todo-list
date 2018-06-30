@@ -15,7 +15,7 @@ node start.js
 * node_modules
 	* 项目所需要的模块
 * public
-	* 部署到服务器上的静态文件夹，包括网页需要的CSS,JS,Images。
+	* 部署到服务器上的静态文件夹，包括网页需要的CSS,JS,Images
 * views
 	* 网站中所显示的网页
 * start.js
