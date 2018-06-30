@@ -1,5 +1,4 @@
 # vue-todo-list
-[地址](https://github.com/H-Phoebe/web-todo-list)(源码)
 >**vue-todo-list**是综合使用vue，bootstarp，node的一个小规模的个人使用网站，能够实现对事项的规划和安排。其中有很多的不足之处，欢迎指正！
 
 ### 运行
